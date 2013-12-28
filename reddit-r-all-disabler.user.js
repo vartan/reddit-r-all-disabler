@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name       /r/all disabler
-// @namespace  http://www.mvartan.com
-// @version    0.2
+// @name         /r/all disabler
+// @namespace    http://www.mvartan.com
+// @version      0.3
 // @description  Disables /r/all
-// @match      http://*reddit.com*
-// @copyright  2012+, You
+// @include      http://*reddit.com*
+// @copyright    Michael Vartan, 2012-2013
 // ==/UserScript==
 if(document.URL.indexOf("/r/all")!=-1)
 	window.location = "http://www.google.com/"
